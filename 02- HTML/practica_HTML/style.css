@@ -1,0 +1,47 @@
+html.body{
+    margin: 0;
+    padding: 0;
+}
+body{
+ 
+    width: 70%;
+    margin: 0 auto;
+}
+
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.logo{
+   width: 320px;
+   height: 200px;
+   float: right;
+}
+
+/*Navegacio*/
+#nav ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+    background-color: rgb(240, 116, 209);
+
+
+}
+.nave li a{
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+}
+.nave li{
+    float: left;
+    border-right: 1px solid black;
+}
+
+.nave li a:hover{
+    background-color: rgb(60, 11, 105);
+
+}
